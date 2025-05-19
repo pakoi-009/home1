@@ -1,0 +1,22 @@
+<fruits>
+  <fruit id="f001">
+    <name>Apple</name>
+    <price_per_gram>0.01</price_per_gram>
+    <quantity_available>5000</quantity_available>
+    <details>Fresh red apples from local farms</details>
+  </fruit>
+  
+  <fruit id="f002">
+    <name>Banana</name>
+    <price_per_gram>0.007</price_per_gram>
+    <quantity_available>3000</quantity_available>
+    <details>Sweet organic bananas</details>
+  </fruit>
+  
+  <fruit id="f003">
+    <name>Mango</name>
+    <price_per_gram>0.015</price_per_gram>
+    <quantity_available>2000</quantity_available>
+    <details>Juicy ripe mangoes imported from India</details>
+  </fruit>
+</fruits>
