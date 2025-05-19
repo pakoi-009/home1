@@ -1,0 +1,53 @@
+<LogicTableData>
+  <Descriptions>
+    <AND>Logical AND: result is true if both values are true</AND>
+    <OR>Logical OR: result is true if at least one value is true</OR>
+    <NOT>Logical NOT: inverts the value (true becomes false)</NOT>
+    <NOR>Logical NOR: result is true if both values are false</NOR>
+    <XOR>Exclusive OR: result is true if only one of the values is true</XOR>
+    <XNOR>Logical XNOR: result is true if both values are the same</XNOR>
+  </Descriptions>
+
+  <LogicTable>
+    <Row>
+      <A>true</A>
+      <B>true</B>
+      <AND>true</AND>
+      <OR>true</OR>
+      <NOT_A>false</NOT_A>
+      <NOR>false</NOR>
+      <XOR>false</XOR>
+      <XNOR>true</XNOR>
+    </Row>
+    <Row>
+      <A>true</A>
+      <B>false</B>
+      <AND>false</AND>
+      <OR>true</OR>
+      <NOT_A>false</NOT_A>
+      <NOR>false</NOR>
+      <XOR>true</XOR>
+      <XNOR>false</XNOR>
+    </Row>
+    <Row>
+      <A>false</A>
+      <B>true</B>
+      <AND>false</AND>
+      <OR>true</OR>
+      <NOT_A>true</NOT_A>
+      <NOR>false</NOR>
+      <XOR>true</XOR>
+      <XNOR>false</XNOR>
+    </Row>
+    <Row>
+      <A>false</A>
+      <B>false</B>
+      <AND>false</AND>
+      <OR>false</OR>
+      <NOT_A>true</NOT_A>
+      <NOR>true</NOR>
+      <XOR>false</XOR>
+      <XNOR>true</XNOR>
+    </Row>
+  </LogicTable>
+</LogicTableData>
